@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 
 export default function Footer() {
@@ -40,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-gray-800 text-xs text-center">
-        &copy; {new Date().getFullYear()} Luxe & Thread Inc. All rights reserved.
+        &copy; 2026 Luxe & Thread Inc. All rights reserved.
       </div>
     </footer>
   );
