@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# Luxe & Thread - Modern Fashion E-Commerce Storefront
 
-## Getting Started
+A high-performance, enterprise-grade fashion e-commerce web application built with **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v4**, and **TypeScript**.
 
-First, run the development server:
+## 🚀 Project Status & Phased Roadmap
+- ✅ **Phase 1: Foundation & Design System** (Completed) 
+  - Root layout, global header with interactive cart badge, and multi-column footer implemented.
+  - Tailwind CSS v4 design tokens and mobile-first layout rules verified.
+  - Linting and production builds passing with zero errors.
+- 🔄 **Phase 2: Dynamic Routing & Product Catalog** (In Progress) - Dynamic product routes (/products/[id]) and catalog data models.
+- ⏳ **Phase 3:** State Management & Cart Engine
+- ⏳ **Phase 4:** Forms, Zod Validation & Checkout
+- ⏳ **Phase 5:** Production Hardening, Vercel & AWS EC2 Deployment
 
-```bash
+## 🛠️ Local Development
+
+\\\ash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\\\
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
