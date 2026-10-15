@@ -10,7 +10,7 @@ export default function Home() {
             className="text-sm font-semibold tracking-[0.24em]"
             href="#"
           >
-            FORMA
+            FORMA_BALA
           </a>
           <p className="text-xs tracking-[0.12em] text-[#77776f] sm:text-sm">
             EVERYDAY, CONSIDERED

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Forma — Everyday, considered",
+  title: "FORMA — Everyday, considered",
   description: "Thoughtful wardrobe essentials made for everyday wear.",
 };
 
@@ -27,3 +27,4 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
+
